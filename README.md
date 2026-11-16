@@ -26,6 +26,10 @@
   - [OTel과 데이터 수집·관리](observability/opentelemetry-and-collection.md)
   - [APM 서비스와 오픈소스 조합](observability/apm-and-backends.md)
 
+## 📌 Messaging
+
+- ### [Kafka](kafka/)
+
 ## 📌 ETC
 
 - [학습 문서 양식](templates/study-note.md)
