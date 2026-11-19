@@ -33,3 +33,7 @@
   - [카프카는 왜 필요하고, 큐와 무엇이 다를까?](kafka/why-kafka.md)
   - [토픽·파티션·오프셋의 관계](kafka/topic-partition-offset.md)
   - [프로듀서의 파티션 선택](kafka/producer-partitioning.md)
+
+## 📌 Data Store
+
+- ### [Redis](redis/)
