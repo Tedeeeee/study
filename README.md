@@ -37,3 +37,5 @@
 ## 📌 Data Store
 
 - ### [Redis](redis/)
+
+  - [Redis는 왜 빠를까?](redis/why-redis-fast.md)
