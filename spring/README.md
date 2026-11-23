@@ -28,6 +28,8 @@ Spring MVC(서블릿 스택)에서 요청 하나가 들어와 응답이 나가�
 
 1. [요청은 어떻게 스레드 하나에게 갈까?](request-to-thread.md)
    - nginx의 TLS, 톰캣의 Acceptor·Poller·작업 스레드, 연결이 아니라 요청 하나에 스레드 하나, 스레드 풀 200개를 정리한다.
+2. [필터는 무엇을 걸러내고, Spring은 어디서부터일까?](filter.md)
+   - 서블릿 표준 필터, doFilter의 앞뒤, chain.doFilter로 걸러내기(401·429), Spring Security 필터, @RestControllerAdvice의 경계선을 정리한다.
 
 ## 공부 계획
 
@@ -36,7 +38,7 @@ Spring MVC(서블릿 스택)에서 요청 하나가 들어와 응답이 나가�
 **Part 1. 요청 하나가 지나는 길**
 
 - [x] 1. 요청은 어떻게 스레드 하나에게 갈까?
-- [ ] 2. 필터는 무엇을 걸러내고, Spring은 어디서부터일까?
+- [x] 2. 필터는 무엇을 걸러내고, Spring은 어디서부터일까?
 - [ ] 3. DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?
 - [ ] 4. @Transactional은 DB 연결을 어떻게 붙잡고 있을까?
 - [ ] 5. 응답과 예외는 어떤 길로 나갈까?
