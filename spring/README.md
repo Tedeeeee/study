@@ -34,6 +34,8 @@ Spring MVC(서블릿 스택)에서 요청 하나가 들어와 응답이 나가�
    - HandlerMapping 주소 표, HandlerExecutionChain, 인터셉터 세 시점과 등록 방식, HandlerAdapter, ArgumentResolver, 역직렬화·직렬화를 정리한다.
 4. [@Transactional은 DB 연결을 어떻게 붙잡고 있을까?](transaction-and-db.md)
    - 프록시와 트랜잭션 매니저, ThreadLocal, HikariCP, JDBC와 드라이버, 외부 API가 느릴 때 스레드 200개·연결 10개가 바닥나는 이유와 대비책을 정리한다.
+5. [응답과 예외는 어떤 길로 나갈까?](response-and-exception.md)
+   - 응답이 거꾸로 나가는 이유(호출 스택), 예외는 DispatcherServlet 안이냐 밖이냐, 필터 예외를 처리하는 네 가지를 정리한다.
 
 ## 공부 계획
 
@@ -45,7 +47,7 @@ Spring MVC(서블릿 스택)에서 요청 하나가 들어와 응답이 나가�
 - [x] 2. 필터는 무엇을 걸러내고, Spring은 어디서부터일까?
 - [x] 3. DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?
 - [x] 4. @Transactional은 DB 연결을 어떻게 붙잡고 있을까?
-- [ ] 5. 응답과 예외는 어떤 길로 나갈까?
+- [x] 5. 응답과 예외는 어떤 길로 나갈까?
 
 **Part 2. 그 길을 가능하게 하는 것**
 

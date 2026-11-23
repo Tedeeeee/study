@@ -1,6 +1,6 @@
 # @Transactional은 DB 연결을 어떻게 붙잡고 있을까?
 
-[목차](README.md) · [이전: DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?](dispatcher-servlet.md)
+[목차](README.md) · [이전: DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?](dispatcher-servlet.md) · [다음: 응답과 예외는 어떤 길로 나갈까?](response-and-exception.md)
 
 ## 다루는 범위
 
