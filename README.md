@@ -53,3 +53,5 @@
 ## 📌 AI
 
 - ### [Harness](harness/)
+
+  - [모델은 글만 만드는데, 어떻게 파일을 고칠까?](harness/agent-loop.md)
