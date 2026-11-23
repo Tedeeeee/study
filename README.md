@@ -23,6 +23,7 @@
   - [요청은 어떻게 스레드 하나에게 갈까?](spring/request-to-thread.md)
   - [필터는 무엇을 걸러내고, Spring은 어디서부터일까?](spring/filter.md)
   - [DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?](spring/dispatcher-servlet.md)
+  - [@Transactional은 DB 연결을 어떻게 붙잡고 있을까?](spring/transaction-and-db.md)
 
 ## 📌 DevOps
 

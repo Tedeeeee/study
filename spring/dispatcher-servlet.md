@@ -1,6 +1,6 @@
 # DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?
 
-[목차](README.md) · [이전: 필터는 무엇을 걸러내고, Spring은 어디서부터일까?](filter.md)
+[목차](README.md) · [이전: 필터는 무엇을 걸러내고, Spring은 어디서부터일까?](filter.md) · [다음: @Transactional은 DB 연결을 어떻게 붙잡고 있을까?](transaction-and-db.md)
 
 ## 다루는 범위
 
