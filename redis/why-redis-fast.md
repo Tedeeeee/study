@@ -1,6 +1,6 @@
 # Redis는 왜 빠를까?
 
-[목차](README.md)
+[목차](README.md) · [다음: 자료구조는 언제 무엇을 쓸까?](data-structures.md)
 
 ## 다루는 범위
 

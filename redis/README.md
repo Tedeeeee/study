@@ -8,6 +8,8 @@ Redis의 동작 원리와 사용법을 서버 한 대 → 애플리케이션에�
 
 1. [Redis는 왜 빠를까?](why-redis-fast.md)
    - 메모리와 MySQL 버퍼 풀, 단순한 처리 과정, 싱글 스레드와 동시성, epoll과 이벤트 루프, RTT와 파이프라이닝을 정리한다.
+2. [자료구조는 언제 무엇을 쓸까?](data-structures.md)
+   - String, Hash, List, Set, Sorted Set의 쓰임과 내부 구조, 만료시간, 자료구조 고르는 법, 시간복잡도와 큰 키 문제를 정리한다.
 
 ## 공부 계획
 
@@ -16,7 +18,7 @@ Redis의 동작 원리와 사용법을 서버 한 대 → 애플리케이션에�
 **Part 1. 서버 한 대로 이해하기**
 
 - [x] 1. Redis는 왜 빠를까? — 메모리 저장, 단순한 처리 과정, 싱글 스레드와 이벤트 루프, 파이프라이닝
-- [ ] 2. 자료구조는 언제 무엇을 쓸까? — String, Hash, List, Set, Sorted Set, 시간복잡도, 큰 키 문제
+- [x] 2. 자료구조는 언제 무엇을 쓸까? — String, Hash, List, Set, Sorted Set, 시간복잡도, 큰 키 문제
 - [ ] 3. 키는 언제 사라질까? — TTL 삭제 방식, `maxmemory`와 축출 정책(LRU, LFU)
 
 **Part 2. 애플리케이션에서 쓰기**

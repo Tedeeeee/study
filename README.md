@@ -49,6 +49,7 @@
 - ### [Redis](redis/)
 
   - [Redis는 왜 빠를까?](redis/why-redis-fast.md)
+  - [자료구조는 언제 무엇을 쓸까?](redis/data-structures.md)
 
 ## 📌 AI
 
