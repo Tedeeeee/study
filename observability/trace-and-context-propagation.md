@@ -1,6 +1,6 @@
 # Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?
 
-[목차](README.md) · [이전: Metric·Log·Trace는 각각 어떤 질문에 답할까?](signals-and-cardinality.md)
+[목차](README.md) · [이전: Metric·Log·Trace는 각각 어떤 질문에 답할까?](signals-and-cardinality.md) · [다음: Metric은 무엇으로 잴까?](metric-instruments.md)
 
 ## 다루는 범위
 
