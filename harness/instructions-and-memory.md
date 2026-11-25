@@ -1,6 +1,6 @@
 # AI는 내 규칙을 어떻게 "기억"할까?
 
-[목차](README.md) · [이전: "하네스"는 정확히 어디까지일까?](what-is-harness.md)
+[목차](README.md) · [이전: "하네스"는 정확히 어디까지일까?](what-is-harness.md) · [다음: 컨텍스트가 차면 무슨 일이 생길까?](when-context-fills.md)
 
 ## 다루는 범위
 

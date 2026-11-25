@@ -62,3 +62,4 @@
   - [모델은 글만 만드는데, 어떻게 파일을 고칠까?](harness/agent-loop.md)
   - ["하네스"는 정확히 어디까지일까?](harness/what-is-harness.md)
   - [AI는 내 규칙을 어떻게 "기억"할까?](harness/instructions-and-memory.md)
+  - [컨텍스트가 차면 무슨 일이 생길까?](harness/when-context-fills.md)
