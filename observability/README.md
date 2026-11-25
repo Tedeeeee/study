@@ -8,6 +8,8 @@
 
 1. [모니터링과 관측성은 뭐가 다를까?](monitoring-vs-observability.md)
    - 미리 정한 질문과 정하지 못한 질문, p99, MSA에서 요청이 끊기는 이유와 컨텍스트 전파를 정리한다.
+2. [Metric·Log·Trace는 각각 어떤 질문에 답할까?](signals-and-cardinality.md)
+   - 세 signal의 질문·비용·약점, Trace 샘플링, Metric이 앱 메모리에서 쌓였다 나가는 방식, 라벨 카디널리티를 정리한다.
 
 ### 기존 정리
 
@@ -27,7 +29,7 @@
 **Part 1. 관측 기본**
 
 - [x] 1. 모니터링과 관측성은 뭐가 다를까? — 미리 정한 질문과 정하지 못한 질문, 모니터링이 답하는 범위
-- [ ] 2. Metric·Log·Trace는 각각 어떤 질문에 답할까? — 비용과 약점, 카디널리티
+- [x] 2. Metric·Log·Trace는 각각 어떤 질문에 답할까? — 비용과 약점, 카디널리티
 - [ ] 3. Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까? — 부모-자식 관계, `traceparent`, 컨텍스트 전파
 - [ ] 4. Metric은 무엇으로 잴까? — Counter, UpDownCounter, Histogram, Gauge, 동기와 비동기 Instrument
 - [ ] 5. 세 signal은 어떻게 이어질까? — 로그 속 trace_id(appender와 MDC), Exemplar, `service.name`
@@ -44,7 +46,7 @@
 - [ ] 10. Java Agent·Boot 내장·OTel Starter는 구조가 어떻게 다를까?
 - [ ] 11. 같은 요청인데 왜 이름·단위·Resource가 다를까? — 실습 비교와 흔한 함정
 
-기존 노트와 겹치는 주제: `signals-and-correlation.md` → 2·5번, `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md` → 6번.
+기존 노트와 겹치는 주제: `signals-and-correlation.md` → 5번(2번 내용은 새 노트로 옮김), `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md` → 6번.
 
 ## 기록 기준
 

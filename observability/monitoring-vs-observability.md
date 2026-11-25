@@ -1,6 +1,6 @@
 # 모니터링과 관측성은 뭐가 다를까?
 
-[목차](README.md)
+[목차](README.md) · [다음: Metric·Log·Trace는 각각 어떤 질문에 답할까?](signals-and-cardinality.md)
 
 ## 다루는 범위
 

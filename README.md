@@ -33,6 +33,7 @@
 - ### [Observability](observability/)
 
   - [모니터링과 관측성은 뭐가 다를까?](observability/monitoring-vs-observability.md)
+  - [Metric·Log·Trace는 각각 어떤 질문에 답할까?](observability/signals-and-cardinality.md)
   - [로그·메트릭·트레이스의 관계](observability/signals-and-correlation.md)
   - [OTel과 데이터 수집·관리](observability/opentelemetry-and-collection.md)
   - [APM 서비스와 오픈소스 조합](observability/apm-and-backends.md)
