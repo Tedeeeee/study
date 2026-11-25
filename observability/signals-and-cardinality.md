@@ -1,6 +1,6 @@
 # Metric·Log·Trace는 각각 어떤 질문에 답할까?
 
-[목차](README.md) · [이전: 모니터링과 관측성은 뭐가 다를까?](monitoring-vs-observability.md)
+[목차](README.md) · [이전: 모니터링과 관측성은 뭐가 다를까?](monitoring-vs-observability.md) · [다음: Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?](trace-and-context-propagation.md)
 
 ## 다루는 범위
 

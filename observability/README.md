@@ -10,6 +10,8 @@
    - 미리 정한 질문과 정하지 못한 질문, p99, MSA에서 요청이 끊기는 이유와 컨텍스트 전파를 정리한다.
 2. [Metric·Log·Trace는 각각 어떤 질문에 답할까?](signals-and-cardinality.md)
    - 세 signal의 질문·비용·약점, Trace 샘플링, Metric이 앱 메모리에서 쌓였다 나가는 방식, 라벨 카디널리티를 정리한다.
+3. [Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?](trace-and-context-propagation.md)
+   - Span 구조와 kind, `traceparent` 헤더, CLIENT·SERVER Span 쌍, ThreadLocal로 부모 찾기, `@Async`와 TaskDecorator를 정리한다.
 
 ### 기존 정리
 
@@ -30,7 +32,7 @@
 
 - [x] 1. 모니터링과 관측성은 뭐가 다를까? — 미리 정한 질문과 정하지 못한 질문, 모니터링이 답하는 범위
 - [x] 2. Metric·Log·Trace는 각각 어떤 질문에 답할까? — 비용과 약점, 카디널리티
-- [ ] 3. Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까? — 부모-자식 관계, `traceparent`, 컨텍스트 전파
+- [x] 3. Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까? — 부모-자식 관계, `traceparent`, 컨텍스트 전파
 - [ ] 4. Metric은 무엇으로 잴까? — Counter, UpDownCounter, Histogram, Gauge, 동기와 비동기 Instrument
 - [ ] 5. 세 signal은 어떻게 이어질까? — 로그 속 trace_id(appender와 MDC), Exemplar, `service.name`
 
