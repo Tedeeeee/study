@@ -1,6 +1,6 @@
 # "하네스"는 정확히 어디까지일까?
 
-[목차](README.md) · [이전: 모델은 글만 만드는데, 어떻게 파일을 고칠까?](agent-loop.md)
+[목차](README.md) · [이전: 모델은 글만 만드는데, 어떻게 파일을 고칠까?](agent-loop.md) · [다음: AI는 내 규칙을 어떻게 "기억"할까?](instructions-and-memory.md)
 
 ## 다루는 범위
 
