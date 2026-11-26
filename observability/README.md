@@ -14,13 +14,13 @@
    - Span 구조와 kind, `traceparent` 헤더, CLIENT·SERVER Span 쌍, ThreadLocal로 부모 찾기, `@Async`와 TaskDecorator를 정리한다.
 4. [Metric은 무엇으로 잴까?](metric-instruments.md)
    - Counter, UpDownCounter, Histogram, Gauge의 차이와 p99를 구하는 원리, 동기/비동기를 고르는 기준을 정리한다.
+5. [세 signal은 어떻게 이어질까?](connecting-signals.md)
+   - MDC와 OTel Context, Agent의 trace_id 복사, Exemplar, Resource의 `service.name`으로 세 signal을 잇는 방법을 정리한다.
 
 ### 기존 정리
 
 공부 계획을 세우기 전에 쓴 노트다. 아래 계획의 해당 주제를 통과하면 새 노트로 바꾼다.
 
-- [로그·메트릭·트레이스는 어떻게 연결될까?](signals-and-correlation.md)
-  - 같은 요청의 메트릭, Span, 로그를 비교하고 Trace ID·Span ID·Exemplar로 이어서 분석한다.
 - [관측 데이터를 어떤 형식으로 수집하고 관리할까?](opentelemetry-and-collection.md)
   - 공통 속성과 OTel을 이해하고, 시계열·샘플링·배치·재시도·보관 정책을 살펴본다.
 - [APM 서비스와 오픈소스 조합은 어떻게 다를까?](apm-and-backends.md)
@@ -36,7 +36,7 @@
 - [x] 2. Metric·Log·Trace는 각각 어떤 질문에 답할까? — 비용과 약점, 카디널리티
 - [x] 3. Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까? — 부모-자식 관계, `traceparent`, 컨텍스트 전파
 - [x] 4. Metric은 무엇으로 잴까? — Counter, UpDownCounter, Histogram, Gauge, 동기와 비동기 Instrument
-- [ ] 5. 세 signal은 어떻게 이어질까? — 로그 속 trace_id(appender와 MDC), Exemplar, `service.name`
+- [x] 5. 세 signal은 어떻게 이어질까? — 로그 속 trace_id(appender와 MDC), Exemplar, `service.name`
 
 **Part 2. OpenTelemetry 구조**
 
@@ -50,7 +50,7 @@
 - [ ] 10. Java Agent·Boot 내장·OTel Starter는 구조가 어떻게 다를까?
 - [ ] 11. 같은 요청인데 왜 이름·단위·Resource가 다를까? — 실습 비교와 흔한 함정
 
-기존 노트와 겹치는 주제: `signals-and-correlation.md` → 5번(2번 내용은 새 노트로 옮김), `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md` → 6번.
+기존 노트와 겹치는 주제: `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md` → 6번.
 
 ## 기록 기준
 

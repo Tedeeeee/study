@@ -36,7 +36,7 @@
   - [Metric·Log·Trace는 각각 어떤 질문에 답할까?](observability/signals-and-cardinality.md)
   - [Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?](observability/trace-and-context-propagation.md)
   - [Metric은 무엇으로 잴까?](observability/metric-instruments.md)
-  - [로그·메트릭·트레이스의 관계](observability/signals-and-correlation.md)
+  - [세 signal은 어떻게 이어질까?](observability/connecting-signals.md)
   - [OTel과 데이터 수집·관리](observability/opentelemetry-and-collection.md)
   - [APM 서비스와 오픈소스 조합](observability/apm-and-backends.md)
 

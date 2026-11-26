@@ -1,6 +1,6 @@
 # 관측 데이터를 어떤 형식으로 수집하고 관리할까?
 
-[목차](README.md) · [이전: 로그·메트릭·트레이스의 관계](signals-and-correlation.md) · [다음: APM과 저장 방식](apm-and-backends.md)
+[목차](README.md) · [이전: 세 signal은 어떻게 이어질까?](connecting-signals.md) · [다음: APM과 저장 방식](apm-and-backends.md)
 
 ## 다루는 범위
 
@@ -16,7 +16,7 @@
 
 ### 1. 먼저 세 데이터의 형식과 연결 기준을 정한다
 
-[앞 문서](signals-and-correlation.md)에서 본 관계를 유지하려면 무엇을 공통으로 넣을지 정해야 한다.
+[앞 문서](connecting-signals.md)에서 본 관계를 유지하려면 무엇을 공통으로 넣을지 정해야 한다.
 
 | 데이터 | 주요 내용 | 연결할 때 사용하는 정보 |
 | --- | --- | --- |

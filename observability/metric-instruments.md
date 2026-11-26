@@ -1,6 +1,6 @@
 # Metric은 무엇으로 잴까?
 
-[목차](README.md) · [이전: Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?](trace-and-context-propagation.md)
+[목차](README.md) · [이전: Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?](trace-and-context-propagation.md) · [다음: 세 signal은 어떻게 이어질까?](connecting-signals.md)
 
 ## 다루는 범위
 
