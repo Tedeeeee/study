@@ -1,6 +1,6 @@
 # APM이 있는데 OTel은 왜 나왔을까?
 
-[목차](README.md) · [이전: 세 signal은 어떻게 이어질까?](connecting-signals.md)
+[목차](README.md) · [이전: 세 signal은 어떻게 이어질까?](connecting-signals.md) · [다음: API·SDK·Collector는 각각 무슨 일을 할까?](api-sdk-collector.md)
 
 ## 다루는 범위
 
