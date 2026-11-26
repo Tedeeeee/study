@@ -1,6 +1,6 @@
 # 세 signal은 어떻게 이어질까?
 
-[목차](README.md) · [이전: Metric은 무엇으로 잴까?](metric-instruments.md)
+[목차](README.md) · [이전: Metric은 무엇으로 잴까?](metric-instruments.md) · [다음: APM이 있는데 OTel은 왜 나왔을까?](why-opentelemetry.md)
 
 ## 다루는 범위
 

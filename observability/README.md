@@ -17,6 +17,11 @@
 5. [세 signal은 어떻게 이어질까?](connecting-signals.md)
    - MDC와 OTel Context, Agent의 trace_id 복사, Exemplar, Resource의 `service.name`으로 세 signal을 잇는 방법을 정리한다.
 
+**Part 2. OpenTelemetry 구조**
+
+6. [APM이 있는데 OTel은 왜 나왔을까?](why-opentelemetry.md)
+   - 계측 모듈·API·SDK·Exporter 부품, APM 벤더 종속과 헤더·전송 양식 문제, OpenTracing과 OpenCensus, OTel이 정한 것과 안 하는 것을 정리한다.
+
 ### 기존 정리
 
 공부 계획을 세우기 전에 쓴 노트다. 아래 계획의 해당 주제를 통과하면 새 노트로 바꾼다.
@@ -40,7 +45,7 @@
 
 **Part 2. OpenTelemetry 구조**
 
-- [ ] 6. APM이 있는데 OTel은 왜 나왔을까? — 도구마다 제각각인 문제, 벤더 종속, OpenTracing + OpenCensus
+- [x] 6. APM이 있는데 OTel은 왜 나왔을까? — 도구마다 제각각인 문제, 벤더 종속, OpenTracing + OpenCensus
 - [ ] 7. API·SDK·Collector는 각각 무슨 일을 할까? — OTel이 표준화하는 것과 안 하는 것
 - [ ] 8. OTLP 메시지는 어떻게 생겼을까? — Resource → Scope → 데이터, 4317/4318 포트, semconv
 - [ ] 9. Collector는 데이터를 어떻게 처리할까? — receiver → processor → exporter, Agent와 Gateway 배포
@@ -50,7 +55,7 @@
 - [ ] 10. Java Agent·Boot 내장·OTel Starter는 구조가 어떻게 다를까?
 - [ ] 11. 같은 요청인데 왜 이름·단위·Resource가 다를까? — 실습 비교와 흔한 함정
 
-기존 노트와 겹치는 주제: `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md` → 6번.
+기존 노트와 겹치는 주제: `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md`는 6번과 일부 겹치지만 제품·저장소 비교가 중심이라 그대로 둔다.
 
 ## 기록 기준
 

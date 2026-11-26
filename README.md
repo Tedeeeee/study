@@ -37,6 +37,7 @@
   - [Trace와 Span은 어떻게 생겼고, 서비스 경계를 어떻게 넘을까?](observability/trace-and-context-propagation.md)
   - [Metric은 무엇으로 잴까?](observability/metric-instruments.md)
   - [세 signal은 어떻게 이어질까?](observability/connecting-signals.md)
+  - [APM이 있는데 OTel은 왜 나왔을까?](observability/why-opentelemetry.md)
   - [OTel과 데이터 수집·관리](observability/opentelemetry-and-collection.md)
   - [APM 서비스와 오픈소스 조합](observability/apm-and-backends.md)
 
