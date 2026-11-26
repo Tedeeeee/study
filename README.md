@@ -40,6 +40,7 @@
   - [APM이 있는데 OTel은 왜 나왔을까?](observability/why-opentelemetry.md)
   - [API·SDK·Collector는 각각 무슨 일을 할까?](observability/api-sdk-collector.md)
   - [OTLP 메시지는 어떻게 생겼을까?](observability/otlp-message.md)
+  - [Collector는 데이터를 어떻게 처리할까?](observability/collector-pipeline.md)
   - [OTel과 데이터 수집·관리](observability/opentelemetry-and-collection.md)
   - [APM 서비스와 오픈소스 조합](observability/apm-and-backends.md)
 

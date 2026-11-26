@@ -1,6 +1,6 @@
 # OTLP 메시지는 어떻게 생겼을까?
 
-[목차](README.md) · [이전: API·SDK·Collector는 각각 무슨 일을 할까?](api-sdk-collector.md)
+[목차](README.md) · [이전: API·SDK·Collector는 각각 무슨 일을 할까?](api-sdk-collector.md) · [다음: Collector는 데이터를 어떻게 처리할까?](collector-pipeline.md)
 
 ## 다루는 범위
 

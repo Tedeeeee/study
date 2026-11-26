@@ -25,6 +25,8 @@
    - API와 SDK를 나눈 이유(SLF4J 비유)와 no-op, 기본 구현체가 정해지는 방식, Collector의 역할과 배포판, OTel이 만드는 것과 우리 몫을 정리한다.
 8. [OTLP 메시지는 어떻게 생겼을까?](otlp-message.md)
    - Resource → Scope → 데이터 구조, Span Event와 LogRecord의 차이, 4317(gRPC)·4318(HTTP)과 protobuf·HTTP/2, semconv와 OTLP의 경계를 정리한다.
+9. [Collector는 데이터를 어떻게 처리할까?](collector-pipeline.md)
+   - receiver·processor·exporter와 pipeline, processor 순서와 개인정보 지우기, tail sampling, Agent·Gateway 배포와 각각이 보는 범위를 정리한다.
 
 ### 기존 정리
 
@@ -52,14 +54,14 @@
 - [x] 6. APM이 있는데 OTel은 왜 나왔을까? — 도구마다 제각각인 문제, 벤더 종속, OpenTracing + OpenCensus
 - [x] 7. API·SDK·Collector는 각각 무슨 일을 할까? — OTel이 표준화하는 것과 안 하는 것
 - [x] 8. OTLP 메시지는 어떻게 생겼을까? — Resource → Scope → 데이터, 4317/4318 포트, semconv
-- [ ] 9. Collector는 데이터를 어떻게 처리할까? — receiver → processor → exporter, Agent와 Gateway 배포
+- [x] 9. Collector는 데이터를 어떻게 처리할까? — receiver → processor → exporter, Agent와 Gateway 배포
 
 **Part 3. 코드 수정 없이 계측하기**
 
 - [ ] 10. Java Agent·Boot 내장·OTel Starter는 구조가 어떻게 다를까?
 - [ ] 11. 같은 요청인데 왜 이름·단위·Resource가 다를까? — 실습 비교와 흔한 함정
 
-기존 노트와 겹치는 주제: `opentelemetry-and-collection.md` → 7~9번, `apm-and-backends.md`는 6번과 일부 겹치지만 제품·저장소 비교가 중심이라 그대로 둔다.
+기존 노트와 겹치는 주제: `opentelemetry-and-collection.md`는 7~9번과 겹치지만 실패 지점 구분·보관 기간·재시도 같은 운영 내용이 남아 있어 그대로 둔다. `apm-and-backends.md`는 6번과 일부 겹치지만 제품·저장소 비교가 중심이라 그대로 둔다.
 
 ## 기록 기준
 
