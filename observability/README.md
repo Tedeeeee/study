@@ -23,6 +23,8 @@
    - 계측 모듈·API·SDK·Exporter 부품, APM 벤더 종속과 헤더·전송 양식 문제, OpenTracing과 OpenCensus, OTel이 정한 것과 안 하는 것을 정리한다.
 7. [API·SDK·Collector는 각각 무슨 일을 할까?](api-sdk-collector.md)
    - API와 SDK를 나눈 이유(SLF4J 비유)와 no-op, 기본 구현체가 정해지는 방식, Collector의 역할과 배포판, OTel이 만드는 것과 우리 몫을 정리한다.
+8. [OTLP 메시지는 어떻게 생겼을까?](otlp-message.md)
+   - Resource → Scope → 데이터 구조, Span Event와 LogRecord의 차이, 4317(gRPC)·4318(HTTP)과 protobuf·HTTP/2, semconv와 OTLP의 경계를 정리한다.
 
 ### 기존 정리
 
@@ -49,7 +51,7 @@
 
 - [x] 6. APM이 있는데 OTel은 왜 나왔을까? — 도구마다 제각각인 문제, 벤더 종속, OpenTracing + OpenCensus
 - [x] 7. API·SDK·Collector는 각각 무슨 일을 할까? — OTel이 표준화하는 것과 안 하는 것
-- [ ] 8. OTLP 메시지는 어떻게 생겼을까? — Resource → Scope → 데이터, 4317/4318 포트, semconv
+- [x] 8. OTLP 메시지는 어떻게 생겼을까? — Resource → Scope → 데이터, 4317/4318 포트, semconv
 - [ ] 9. Collector는 데이터를 어떻게 처리할까? — receiver → processor → exporter, Agent와 Gateway 배포
 
 **Part 3. 코드 수정 없이 계측하기**

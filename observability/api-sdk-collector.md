@@ -1,6 +1,6 @@
 # API·SDK·Collector는 각각 무슨 일을 할까?
 
-[목차](README.md) · [이전: APM이 있는데 OTel은 왜 나왔을까?](why-opentelemetry.md)
+[목차](README.md) · [이전: APM이 있는데 OTel은 왜 나왔을까?](why-opentelemetry.md) · [다음: OTLP 메시지는 어떻게 생겼을까?](otlp-message.md)
 
 ## 다루는 범위
 
