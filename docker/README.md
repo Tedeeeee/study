@@ -12,6 +12,8 @@
    - 실행 환경의 차이, VM과 컨테이너의 구조 차이(커널 공유, namespace·cgroup), Windows에서의 WSL2, 도커가 더한 이미지·Dockerfile·레지스트리를 정리한다.
 2. [컨테이너는 그냥 프로세스일까?](container-is-process.md)
    - 시스템 콜과 커널, namespace 종류와 프로세스가 드는 세트, cgroup 상한과 OOM Kill, 일반 프로세스와의 비교, 메인 프로세스와 컨테이너 수명을 정리한다.
+3. [도커 엔진은 어떻게 생겼을까?](docker-engine.md)
+   - CLI·dockerd·containerd·runc·shim의 역할, dockerd가 컨테이너와 호스트를 잇는 방식, Kubernetes가 dockerd 없이 도는 이유, Windows에서의 배치와 `docker.sock`을 정리한다.
 
 ## 공부 계획
 
@@ -21,7 +23,7 @@
 
 - [x] 1. 도커는 왜 나왔을까? — "내 PC에선 되는데", VM과 컨테이너의 차이
 - [x] 2. 컨테이너는 그냥 프로세스일까? — namespace(격리), cgroup(자원 제한), 커널 공유
-- [ ] 3. 도커 엔진은 어떻게 생겼을까? — CLI → dockerd → containerd → runc, Windows·Mac에서 돌아가는 방식(WSL2·VM)
+- [x] 3. 도커 엔진은 어떻게 생겼을까? — CLI → dockerd → containerd → runc, Windows·Mac에서 돌아가는 방식(WSL2·VM)
 
 **Part 2. 이미지**
 
