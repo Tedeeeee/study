@@ -1,6 +1,6 @@
 # 컨텍스트가 차면 무슨 일이 생길까?
 
-[목차](README.md) · [이전: AI는 내 규칙을 어떻게 "기억"할까?](instructions-and-memory.md)
+[목차](README.md) · [이전: AI는 내 규칙을 어떻게 "기억"할까?](instructions-and-memory.md) · [다음: 도구와 권한은 어떻게 설계할까?](tools-and-permissions.md)
 
 ## 다루는 범위
 
