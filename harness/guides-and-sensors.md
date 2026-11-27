@@ -1,6 +1,6 @@
 # 무엇을 글로 안내하고, 무엇을 코드로 막을까?
 
-[목차](README.md) · [이전: 도구와 권한은 어떻게 설계할까?](tools-and-permissions.md)
+[목차](README.md) · [이전: 도구와 권한은 어떻게 설계할까?](tools-and-permissions.md) · [다음: 루프의 어디에 코드를 끼울 수 있을까?](hooks.md)
 
 ## 다루는 범위
 

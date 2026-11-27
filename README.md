@@ -74,3 +74,4 @@
   - [컨텍스트가 차면 무슨 일이 생길까?](harness/when-context-fills.md)
   - [도구와 권한은 어떻게 설계할까?](harness/tools-and-permissions.md)
   - [무엇을 글로 안내하고, 무엇을 코드로 막을까?](harness/guides-and-sensors.md)
+  - [루프의 어디에 코드를 끼울 수 있을까?](harness/hooks.md)
