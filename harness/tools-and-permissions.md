@@ -1,6 +1,6 @@
 # 도구와 권한은 어떻게 설계할까?
 
-[목차](README.md) · [이전: 컨텍스트가 차면 무슨 일이 생길까?](when-context-fills.md)
+[목차](README.md) · [이전: 컨텍스트가 차면 무슨 일이 생길까?](when-context-fills.md) · [다음: 무엇을 글로 안내하고, 무엇을 코드로 막을까?](guides-and-sensors.md)
 
 ## 다루는 범위
 
