@@ -28,20 +28,28 @@
 **Part 3. 실행 환경**
 
 - [ ] 8. 컨테이너 안의 데이터는 왜 사라질까? — volume, bind mount, tmpfs
-- [ ] 9. 컨테이너끼리, 그리고 밖에서 어떻게 통신할까? — bridge 네트워크, 포트 매핑, 컨테이너 DNS
-- [ ] 10. 컨테이너는 어떻게 시작하고 끝날까? — PID 1, 시그널과 graceful shutdown, 재시작 정책, 로그
+- [ ] 9. 컨테이너는 어떻게 시작하고 끝날까? — PID 1, 시그널과 graceful shutdown, 재시작 정책, 로그
 
-**Part 4. 실전**
+**Part 4. 네트워크**
 
-- [ ] 11. 여러 컨테이너를 어떻게 한 번에 띄울까? — Docker Compose, `depends_on`과 healthcheck
-- [ ] 12. Spring Boot 앱을 컨테이너로 띄우면 뭘 신경 써야 할까? — JVM 메모리와 cgroup, 레이어드 jar, 환경 변수로 설정 주입
-- [ ] 13. 다음은 어디로 갈까? — 오케스트레이션(Kubernetes)이 필요한 이유
+네트워크 기초를 함께 공부한다. 주제마다 일반 개념을 먼저 잡고, 도커에서 그 개념이 어떻게 쓰이는지 확인한다.
+
+- [ ] 10. 컨테이너는 어떻게 자기만의 네트워크를 가질까? — network namespace, veth pair / 일반 개념: IP 주소, 네트워크 인터페이스
+- [ ] 11. 같은 호스트의 컨테이너끼리는 어떻게 통신할까? — `docker0` bridge, 컨테이너 IP 할당 / 일반 개념: 서브넷, 게이트웨이, 라우팅
+- [ ] 12. 컨테이너는 바깥과 어떻게 통신할까? — 포트 매핑(`-p`), iptables / 일반 개념: 포트, NAT, 공유기가 하는 일
+- [ ] 13. 컨테이너는 서로를 이름으로 어떻게 찾을까? — 사용자 정의 네트워크, 내장 DNS / 일반 개념: DNS
+
+**Part 5. 실전**
+
+- [ ] 14. 여러 컨테이너를 어떻게 한 번에 띄울까? — Docker Compose, `depends_on`과 healthcheck
+- [ ] 15. Spring Boot 앱을 컨테이너로 띄우면 뭘 신경 써야 할까? — JVM 메모리와 cgroup, 레이어드 jar, 환경 변수로 설정 주입
+- [ ] 16. 다음은 어디로 갈까? — 오케스트레이션(Kubernetes)이 필요한 이유
 
 ### 다른 주제와 이어지는 곳
 
-- 9번에서 나오는 IP·서브넷·포트·NAT·DNS 같은 일반 개념은 [Network](../network/) 노트로 남기고, 도커에서 확인한 내용은 이 폴더에 남긴다.
+- 10~13번에서 나오는 IP·서브넷·포트·NAT·DNS 같은 일반 개념은 [Network](../network/) 노트로 남기고, 도커에서 확인한 내용은 이 폴더에 남긴다.
 - 2번 namespace·cgroup은 [Operating System](../operating-system/)의 프로세스 개념과 이어진다.
-- 8~12번은 Kubernetes의 PersistentVolume, Pod 네트워크·Service, probe와 Pod 종료 과정, requests·limits로 이어진다.
+- 8~15번은 Kubernetes의 PersistentVolume, probe와 Pod 종료 과정, Pod 네트워크·Service, requests·limits로 이어진다.
 
 ## 기록 기준
 
