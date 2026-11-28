@@ -1,6 +1,6 @@
 # 응답과 예외는 어떤 길로 나갈까?
 
-[목차](README.md) · [이전: @Transactional은 DB 연결을 어떻게 붙잡고 있을까?](transaction-and-db.md)
+[목차](README.md) · [이전: @Transactional은 DB 연결을 어떻게 붙잡고 있을까?](transaction-and-db.md) · [다음: 빈은 어떻게 만들어질까?](bean-creation.md)
 
 ## 다루는 범위
 

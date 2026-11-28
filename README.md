@@ -25,6 +25,7 @@
   - [DispatcherServlet은 요청을 어떻게 내 메서드까지 보낼까?](spring/dispatcher-servlet.md)
   - [@Transactional은 DB 연결을 어떻게 붙잡고 있을까?](spring/transaction-and-db.md)
   - [응답과 예외는 어떤 길로 나갈까?](spring/response-and-exception.md)
+  - [빈은 어떻게 만들어질까?](spring/bean-creation.md)
 
 ## 📌 DevOps
 
