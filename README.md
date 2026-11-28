@@ -26,6 +26,7 @@
   - [@Transactional은 DB 연결을 어떻게 붙잡고 있을까?](spring/transaction-and-db.md)
   - [응답과 예외는 어떤 길로 나갈까?](spring/response-and-exception.md)
   - [빈은 어떻게 만들어질까?](spring/bean-creation.md)
+  - [리플렉션은 어떻게 어노테이션을 읽고 메서드를 부를까?](spring/reflection.md)
 
 ## 📌 DevOps
 
