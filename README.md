@@ -34,6 +34,7 @@
   - [컨테이너는 그냥 프로세스일까?](docker/container-is-process.md)
   - [도커 엔진은 어떻게 생겼을까?](docker/docker-engine.md)
   - [이미지와 컨테이너는 뭐가 다를까?](docker/image-and-container.md)
+  - [Dockerfile 한 줄은 무엇이 될까?](docker/dockerfile-instructions.md)
 
 - ### [Observability](observability/)
 

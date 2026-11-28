@@ -19,6 +19,8 @@
 
 4. [이미지와 컨테이너는 뭐가 다를까?](image-and-container.md)
    - 이미지 한 벌을 같이 보는 구조와 쓰기 층, 레이어와 베이스 이미지, OverlayFS, 도커 저장 공간, Dockerfile·이미지·컨테이너가 읽히는 시점을 정리한다.
+5. [Dockerfile 한 줄은 무엇이 될까?](dockerfile-instructions.md)
+   - 레이어를 만드는 명령과 설정을 적는 명령, `RUN`과 임시 컨테이너, 빌드 캐시와 줄의 순서, `CMD`와 `ENTRYPOINT`, exec 형식과 PID 1을 정리한다.
 
 ## 공부 계획
 
@@ -33,7 +35,7 @@
 **Part 2. 이미지**
 
 - [x] 4. 이미지와 컨테이너는 뭐가 다를까? — 읽기 전용 레이어, 쓰기 레이어, OverlayFS
-- [ ] 5. Dockerfile 한 줄은 무엇이 될까? — 명령어별 레이어, 빌드 캐시, `CMD`와 `ENTRYPOINT`
+- [x] 5. Dockerfile 한 줄은 무엇이 될까? — 명령어별 레이어, 빌드 캐시, `CMD`와 `ENTRYPOINT`
 - [ ] 6. 이미지를 어떻게 작고 빠르게 만들까? — 멀티 스테이지 빌드, 베이스 이미지 선택, `.dockerignore`
 - [ ] 7. 이미지는 어디에 어떻게 저장될까? — 레지스트리, 태그와 digest
 

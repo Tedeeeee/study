@@ -1,6 +1,6 @@
 # 이미지와 컨테이너는 뭐가 다를까?
 
-[목차](README.md) · [이전: 도커 엔진은 어떻게 생겼을까?](docker-engine.md)
+[목차](README.md) · [이전: 도커 엔진은 어떻게 생겼을까?](docker-engine.md) · [다음: Dockerfile 한 줄은 무엇이 될까?](dockerfile-instructions.md)
 
 ## 다루는 범위
 
