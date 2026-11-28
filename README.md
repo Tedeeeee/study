@@ -79,3 +79,4 @@
   - [도구와 권한은 어떻게 설계할까?](harness/tools-and-permissions.md)
   - [무엇을 글로 안내하고, 무엇을 코드로 막을까?](harness/guides-and-sensors.md)
   - [루프의 어디에 코드를 끼울 수 있을까?](harness/hooks.md)
+  - [AI가 검사를 통과해야만 끝나게 하려면?](harness/completion-gate.md)
