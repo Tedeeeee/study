@@ -1,6 +1,6 @@
 # 몇 시간짜리 일은 어떻게 이어 갈까?
 
-[목차](README.md) · [이전: AI가 검사를 통과해야만 끝나게 하려면?](completion-gate.md)
+[목차](README.md) · [이전: AI가 검사를 통과해야만 끝나게 하려면?](completion-gate.md) · [다음: 여러 에이전트로 나누면 무엇이 좋아지고 무엇이 비싸질까?](multi-agent.md)
 
 ## 다루는 범위
 

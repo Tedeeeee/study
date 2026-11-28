@@ -81,3 +81,4 @@
   - [루프의 어디에 코드를 끼울 수 있을까?](harness/hooks.md)
   - [AI가 검사를 통과해야만 끝나게 하려면?](harness/completion-gate.md)
   - [몇 시간짜리 일은 어떻게 이어 갈까?](harness/long-running-work.md)
+  - [여러 에이전트로 나누면 무엇이 좋아지고 무엇이 비싸질까?](harness/multi-agent.md)
