@@ -1,6 +1,6 @@
 # 리플렉션은 어떻게 어노테이션을 읽고 메서드를 부를까?
 
-[목차](README.md) · [이전: 빈은 어떻게 만들어질까?](bean-creation.md)
+[목차](README.md) · [이전: 빈은 어떻게 만들어질까?](bean-creation.md) · [다음: AOP 프록시는 어떻게 @Transactional을 감쌀까?](aop-proxy.md)
 
 ## 다루는 범위
 
